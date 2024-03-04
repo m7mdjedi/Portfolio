@@ -22,6 +22,7 @@ const ServiseCard = ({service }) => {
       src={service.imageSrc}
       width={100} 
       height={100}
+      alt="CardImage"
       className='rounded-full'
       
       /> 

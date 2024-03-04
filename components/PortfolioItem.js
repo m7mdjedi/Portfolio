@@ -7,7 +7,7 @@ const PortfolioItem = ({ src }) => {
     <motion.div 
     whileHover={{scale:[1,1.1]}}
     className="h-[500px] overflow-hidden shadow-lg shadow-gray-500 w-full rounded-lg xl:w-[48%] bg-blue-900">
-      <Image src={src} width={500} height={500} className="w-full h-full" />
+      <Image src={src} width={500} alt="portfoliolImage" height={500} className="w-full h-full" />
     </motion.div>
   );
 };
